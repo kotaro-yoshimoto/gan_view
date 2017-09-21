@@ -43,11 +43,6 @@
           <input type="submit" value="生成">
           </form>
         </div>
-        <div class="col-xs-6">
-        {% if image %}
-          <img src="data:image/png;base64,{{image}}" alt="生成された画像" width="150", height="150" style="border: solid 1px; border-color: black">
-        {% endif %}
-        </div>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- kota_PC -->
@@ -60,6 +55,11 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+        <div class="col-xs-6">
+        {% if image %}
+          <img src="data:image/png;base64,{{image}}" alt="生成された画像" width="150", height="150" style="border: solid 1px; border-color: black">
+        {% endif %}
+        </div>
       </div>
     </div>
   </body>
